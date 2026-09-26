@@ -1,9 +1,12 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python 3.6+](https://img.shields.io/badge/python-3.6%2B-blue.svg)
 # usdt-receipt-verifier — read-only USDT-TRC20 payment verifier (Tor)
 
-A tiny, read-only tool that lets a seller **independently confirm** a
-USDT-TRC20 payment arrived to their address, with the right amount and
-enough confirmations — and emits a tamper-evident receipt (SHA-384 hash
-chain) for reconciliation.
+**Verify USDT payments without trusting screenshots.** A read-only command-line tool that
+checks a claimed USDT (TRC-20) transfer against public on-chain data and emits a
+tamper-evident receipt (SHA-384 hash chain) — so freelancers and small merchants can
+independently prove a crypto payment actually arrived, with the right amount and enough
+confirmations. No private keys. No trust in the counterparty. Nothing is ever sent.
 
 ## Why it is useful
 Crypto payments are often "proven" with a screenshot from the sender.
@@ -67,3 +70,5 @@ No personal email is published here on purpose.)
 ## For your first client
 
 This toolkit is built to be dropped into a real engagement and trusted by a paying client. It runs fully offline, leaves a verifiable evidence chain (self-test PASS), and ships with a signed integrity check (D2) so the client can re-verify the artifact they received was not tampered. Pricing/escrow via USDT-TRC20 is supported out of the box.
+
+Companion tool: [offchain-integrity-verifier](https://github.com/elwakeupman-shhh/offchain-integrity-verifier) — same trust story, applied to reports and logs instead of payments.
