@@ -73,10 +73,15 @@ This toolkit is built to be dropped into a real engagement and trusted by a payi
 
 Companion tool: [offchain-integrity-verifier](https://github.com/elwakeupman-shhh/offchain-integrity-verifier) — same trust story, applied to reports and logs instead of payments.
 
+## Related tools
+
+- [zero-match-guard](https://github.com/elwakeupman-shhh/zero-match-guard) — Fail checks that examined nothing.
+- [offchain-integrity-verifier](https://github.com/elwakeupman-shhh/offchain-integrity-verifier) — Prove a report has not been altered.
+
 ## Available for hire
 
-I build this kind of tool to order: operational automation, integrity and verification
-tooling, and content pipelines. Single file, zero third-party dependencies, meaningful
-exit codes.
+I build this kind of tooling to order: ops automation, integrity and verification
+tools, and content pipelines. Single file, zero third-party dependencies, meaningful
+exit codes, and a test you can run yourself.
 
 [zerodeptools on Fiverr](https://www.fiverr.com/zerodeptools)
